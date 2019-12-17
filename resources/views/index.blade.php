@@ -59,7 +59,7 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
               @if(auth()->user())
-                <li class="nav-item"><a href="{{route('users.show', auth()->user()->id)}}" class="nav-link">{{auth()->user()->name}}</a></li>
+                <li class="nav-item"><a href="" class="nav-link">{{auth()->user()->name}}</a></li>
 
               <li class="nav-item active"><a href="#home" class="nav-link">{{ __('navMenu.menu') }}</a></li>
               <li class="nav-item"><a href="#about" class="nav-link">@lang('navMenu.about')</a></li>
